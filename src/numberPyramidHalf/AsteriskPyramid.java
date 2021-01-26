@@ -9,8 +9,11 @@ public class AsteriskPyramid {
         System.out.println("Enter");
         int rowNum = input.nextInt();
         for (int i = 1; i <= rowNum; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*" + " ");
+            for (int j = rowNum; j >= i; j--) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++) {
+                System.out.print(" * ");
             }
             System.out.println();
         }
