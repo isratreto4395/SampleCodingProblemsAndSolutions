@@ -3,7 +3,7 @@ package reverseString;
 //create a method that will take in a string and reverse each letter so that it is completely backword.
 public class ReverseString {
     public static void main(String[] args) {
-        reverseWord("kowshik");
+        reverseWord("nafiz");
     }
 
 
